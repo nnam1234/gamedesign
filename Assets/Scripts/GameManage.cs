@@ -6,7 +6,7 @@ public class GameManage : MonoBehaviour
 {
     private Transform[] wayPoint;
     private GameObject[] enemyArray;
-    private Transform creatPoint;
+    private Transform createPoint;
     private int enemyCount;
     private int enemyNumber;
     private float times;
@@ -16,7 +16,7 @@ public class GameManage : MonoBehaviour
     private GameObject gameover;
     void Start()
     {
-        creatPoint = GameObject.Find("CreatPoint").transform;
+        createPoint = GameObject.Find("CreatePoint").transform;
         enemyCount = 5;
         enemyNumber = 5;
         times = 3;
@@ -66,7 +66,7 @@ public class GameManage : MonoBehaviour
             for (int j = 0; j < enemyNumber; j++)
             {
                 GameObject.Instantiate(enemyArray[Random.Range(0, enemyArray.Length)],
-                    creatPoint.position, creatPoint.rotation);
+                    createPoint.position, createPoint.rotation);
                 count++;
                 yield return new WaitForSeconds(timer);
             }
@@ -75,6 +75,5 @@ public class GameManage : MonoBehaviour
         isFinish = true;
         StopCoroutine(EnemyIncubator());
     }
-
 
 }
