@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManage : MonoBehaviour {
+public class GameManage : MonoBehaviour
+{
     private Transform[] wayPoint;
     private GameObject[] enemyArray;
     private Transform creatPoint;
@@ -28,25 +29,26 @@ public class GameManage : MonoBehaviour {
     public Transform[] GetWayPoint
     {
         set { wayPoint = value; }
-        get { return wayPoint;  } 
+        get { return wayPoint; }
     }
     public int GetCount
     {
         set { count = value; }
-        get { return count ; }
+        get { return count; }
     }
     public GameObject GetGameOver
     {
         set { gameover = value; }
-        get { return gameover ; }
+        get { return gameover; }
     }
     void Awake()
     {
         wayPoint = GameObject.Find("EVE").transform.GetChild(0).transform.GetComponentsInChildren<Transform>();
         enemyArray = Resources.LoadAll<GameObject>("Prefabs/Enemys");
     }
-	
-	void Update () {
+
+    void Update()
+    {
         Debug.Log("The amount of the monster is:" + count);
         if (isFinish && 0 == count)
         {
@@ -54,8 +56,8 @@ public class GameManage : MonoBehaviour {
             gameover.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = "You win!";
             //UnityEditor.EditorApplication.isPaused = true;
         }
-          
-	}
+
+    }
 
     private IEnumerator EnemyIncubator()
     {
@@ -73,10 +75,6 @@ public class GameManage : MonoBehaviour {
         isFinish = true;
         StopCoroutine(EnemyIncubator());
     }
-
-
-
-
 
 
 }
