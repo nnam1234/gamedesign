@@ -1,0 +1,2191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-04-13T22:02:04.538-04:00
+  initializedAtString: 2020-04-13T20:24:19.649-04:00
+  log:
+  - commitID: 58932e04cf3c7942a01bcfb6f41c8c8cbb775986
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Upgrade function added
+    description: '* Added turret upgrade function.
+
+      * Minor changes to the
+      UI'
+    timeString: 2020-04-13T22:01:49.000-04:00
+    commitTimeString: 2020-04-13T22:01:49.000-04:00
+    changes:
+    - path: Assets\Fonts.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts.meta
+      projectPath: Assets\Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Black.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Black.ttf
+      projectPath: Assets\Fonts\Roboto-Black.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Black.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Black.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Black.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-BlackItalic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-BlackItalic.ttf
+      projectPath: Assets\Fonts\Roboto-BlackItalic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-BlackItalic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-BlackItalic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-BlackItalic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Bold.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Bold.ttf
+      projectPath: Assets\Fonts\Roboto-Bold.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Bold.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Bold.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Bold.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-BoldItalic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-BoldItalic.ttf
+      projectPath: Assets\Fonts\Roboto-BoldItalic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-BoldItalic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-BoldItalic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-BoldItalic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Italic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Italic.ttf
+      projectPath: Assets\Fonts\Roboto-Italic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Italic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Italic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Italic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Light.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Light.ttf
+      projectPath: Assets\Fonts\Roboto-Light.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Light.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Light.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Light.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-LightItalic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-LightItalic.ttf
+      projectPath: Assets\Fonts\Roboto-LightItalic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-LightItalic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-LightItalic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-LightItalic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Medium.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Medium.ttf
+      projectPath: Assets\Fonts\Roboto-Medium.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Medium.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Medium.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Medium.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-MediumItalic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-MediumItalic.ttf
+      projectPath: Assets\Fonts\Roboto-MediumItalic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-MediumItalic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-MediumItalic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-MediumItalic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Regular.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Regular.ttf
+      projectPath: Assets\Fonts\Roboto-Regular.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Regular.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Regular.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Regular.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Thin.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Thin.ttf
+      projectPath: Assets\Fonts\Roboto-Thin.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-Thin.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-Thin.ttf.meta
+      projectPath: Assets\Fonts\Roboto-Thin.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-ThinItalic.ttf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-ThinItalic.ttf
+      projectPath: Assets\Fonts\Roboto-ThinItalic.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Roboto-ThinItalic.ttf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Fonts\Roboto-ThinItalic.ttf.meta
+      projectPath: Assets\Fonts\Roboto-ThinItalic.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GameOver.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\GameOver.cs
+      projectPath: Assets\GameOver.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GameOver.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\GameOver.cs.meta
+      projectPath: Assets\GameOver.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\earth.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\earth.png
+      projectPath: Assets\Images\earth.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\earth.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\earth.png.meta
+      projectPath: Assets\Images\earth.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\fire.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\fire.png
+      projectPath: Assets\Images\fire.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\fire.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\fire.png.meta
+      projectPath: Assets\Images\fire.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\water.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\water.png
+      projectPath: Assets\Images\water.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\water.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\water.png.meta
+      projectPath: Assets\Images\water.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Barrel.mat
+      projectPath: Assets\Material\Earth\Earth_Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Node.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Node.prefab
+      projectPath: Assets\Prefab\Node.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Earth Turret Upgraded.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Earth
+        Turret Upgraded.prefab
+      projectPath: Assets\Prefab\Turrets\Earth Turret Upgraded.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Earth Turret Upgraded.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Earth
+        Turret Upgraded.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Earth Turret Upgraded.prefab.meta
+      originalPath: Assets\Prefab\Turrets\Missile Launcher.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Exploding Turret Upgraded.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Exploding
+        Turret Upgraded.prefab
+      projectPath: Assets\Prefab\Turrets\Exploding Turret Upgraded.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Exploding Turret Upgraded.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Exploding
+        Turret Upgraded.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Exploding Turret Upgraded.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Fire Turret Upgraded.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Fire
+        Turret Upgraded.prefab
+      projectPath: Assets\Prefab\Turrets\Fire Turret Upgraded.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Fire Turret Upgraded.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Fire
+        Turret Upgraded.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Fire Turret Upgraded.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Missile Launcher.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Missile
+        Launcher.prefab
+      projectPath: Assets\Prefab\Turrets\Missile Launcher.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Water Turret Upgraded.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Water
+        Turret Upgraded.prefab
+      projectPath: Assets\Prefab\Turrets\Water Turret Upgraded.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Water Turret Upgraded.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Water
+        Turret Upgraded.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Water Turret Upgraded.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildManager.cs
+      projectPath: Assets\Scripts\BuildManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Enemy.cs
+      projectPath: Assets\Scripts\Enemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\GameManager.cs.meta
+      projectPath: Assets\Scripts\GameManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MoneyUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\MoneyUI.cs
+      projectPath: Assets\Scripts\MoneyUI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MoneyUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\MoneyUI.cs.meta
+      projectPath: Assets\Scripts\MoneyUI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Node.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Node.cs
+      projectPath: Assets\Scripts\Node.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerStats.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\PlayerStats.cs
+      projectPath: Assets\Scripts\PlayerStats.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerStats.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\PlayerStats.cs.meta
+      projectPath: Assets\Scripts\PlayerStats.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ScoreManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\ScoreManager.cs
+      projectPath: Assets\Scripts\ScoreManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Shop.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Shop.cs
+      projectPath: Assets\Scripts\Shop.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Shop.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Shop.cs.meta
+      projectPath: Assets\Scripts\Shop.cs.meta
+      originalPath: Assets\Shop.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurretBlueprint.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TurretBlueprint.cs
+      projectPath: Assets\Scripts\TurretBlueprint.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurretBlueprint.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TurretBlueprint.cs.meta
+      projectPath: Assets\Scripts\TurretBlueprint.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurretUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TurretUI.cs
+      projectPath: Assets\Scripts\TurretUI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurretUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TurretUI.cs.meta
+      projectPath: Assets\Scripts\TurretUI.cs.meta
+      originalPath: Assets\TurretUI.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\WaveSpawner.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\WaveSpawner.cs
+      projectPath: Assets\Scripts\WaveSpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\lifeUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\lifeUI.cs
+      projectPath: Assets\Scripts\lifeUI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\lifeUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\lifeUI.cs.meta
+      projectPath: Assets\Scripts\lifeUI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Shop.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Shop.cs
+      projectPath: Assets\Shop.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\TurretUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\TurretUI.cs
+      projectPath: Assets\TurretUI.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\WaveUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\WaveUI.cs
+      projectPath: Assets\WaveUI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\WaveUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\WaveUI.cs.meta
+      projectPath: Assets\WaveUI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 444bc6825598e4e0497bc466e2633ff3b3749821
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Upgrade & sell UI Implemented
+    description: 'Minor bugs: the turret UI doesnt disappear when clicked away'
+    timeString: 2020-04-13T17:09:28.000-04:00
+    commitTimeString: 2020-04-13T17:09:28.000-04:00
+    changes:
+    - path: Assets\Images.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images.meta
+      projectPath: Assets\Images.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\EarthTurret-icon.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\EarthTurret-icon.png
+      projectPath: Assets\Images\EarthTurret-icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\EarthTurret-icon.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\EarthTurret-icon.png.meta
+      projectPath: Assets\Images\EarthTurret-icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\ExplodingTurret-icon.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\ExplodingTurret-icon.png
+      projectPath: Assets\Images\ExplodingTurret-icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\ExplodingTurret-icon.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\ExplodingTurret-icon.png.meta
+      projectPath: Assets\Images\ExplodingTurret-icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\FireTurret-icon.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\FireTurret-icon.png
+      projectPath: Assets\Images\FireTurret-icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\FireTurret-icon.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\FireTurret-icon.png.meta
+      projectPath: Assets\Images\FireTurret-icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\WaterTurret-icon.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\WaterTurret-icon.png
+      projectPath: Assets\Images\WaterTurret-icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\WaterTurret-icon.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\WaterTurret-icon.png.meta
+      projectPath: Assets\Images\WaterTurret-icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\coin_PNG36888.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\coin_PNG36888.png
+      projectPath: Assets\Images\coin_PNG36888.png
+      originalPath: Assets\coin_PNG36888.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Images\coin_PNG36888.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\coin_PNG36888.png.meta
+      projectPath: Assets\Images\coin_PNG36888.png.meta
+      originalPath: Assets\coin_PNG36888.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Images\down-arrow.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\down-arrow.png
+      projectPath: Assets\Images\down-arrow.png
+      originalPath: Assets\down-arrow.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Images\down-arrow.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\down-arrow.png.meta
+      projectPath: Assets\Images\down-arrow.png.meta
+      originalPath: Assets\down-arrow.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Node.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Node.prefab
+      projectPath: Assets\Prefab\Node.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\ShopTurretButton.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\ShopTurretButton.prefab
+      projectPath: Assets\Prefab\Turrets\ShopTurretButton.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\ShopTurretButton.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\ShopTurretButton.prefab.meta
+      projectPath: Assets\Prefab\Turrets\ShopTurretButton.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildManager.cs
+      projectPath: Assets\Scripts\BuildManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildManager.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildManager.cs.meta
+      projectPath: Assets\Scripts\BuildManager.cs.meta
+      originalPath: Assets\Scripts\BuildingManager.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildingManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildingManager.cs
+      projectPath: Assets\Scripts\BuildingManager.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\Node.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Node.cs
+      projectPath: Assets\Scripts\Node.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Node.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Node.cs.meta
+      projectPath: Assets\Scripts\Node.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TowerSpot.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TowerSpot.cs
+      projectPath: Assets\Scripts\TowerSpot.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Shop.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Shop.cs
+      projectPath: Assets\Shop.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Shop.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Shop.cs.meta
+      projectPath: Assets\Shop.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TurretUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\TurretUI.cs
+      projectPath: Assets\TurretUI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\TurretUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\TurretUI.cs.meta
+      projectPath: Assets\TurretUI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 51e16b2c805fe3294059564b2c9d7e417ddcd34a
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Elemental damage
+    description: Turrets now does 20% more damages according to its elemental counter.
+    timeString: 2020-04-13T00:26:25.000-04:00
+    commitTimeString: 2020-04-13T00:26:25.000-04:00
+    changes:
+    - path: Assets\Prefab\Enemy.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Enemy.prefab
+      projectPath: Assets\Prefab\Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Exploding Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Exploding
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Exploding Turret.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Enemy.cs
+      projectPath: Assets\Scripts\Enemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turret.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Turret.cs
+      projectPath: Assets\Scripts\Turret.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\down-arrow.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\down-arrow.png
+      projectPath: Assets\down-arrow.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\down-arrow.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\down-arrow.png.meta
+      projectPath: Assets\down-arrow.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 60316fa03af53ec8d95c5cb13feba8bbe37d81fb
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Bullet impact
+    description: 
+    timeString: 2020-04-11T00:59:03.000-04:00
+    commitTimeString: 2020-04-11T00:59:03.000-04:00
+    changes:
+    - path: Assets\Prefab\Bullet Impact.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact.meta
+      projectPath: Assets\Prefab\Bullet Impact.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_earth.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_earth.prefab
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_earth.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_earth.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_earth.prefab.meta
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_earth.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_fire.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_fire.prefab
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_fire.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_fire.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_fire.prefab.meta
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_fire.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_normal.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_normal.prefab
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_normal.prefab
+      originalPath: Assets\Prefab\Bullet Impact Effect.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_normal.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_normal.prefab.meta
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_normal.prefab.meta
+      originalPath: Assets\Prefab\Bullet Impact Effect.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_water.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_water.prefab
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_water.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact\Bullet Impact Effect_water.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact\Bullet Impact Effect_water.prefab.meta
+      projectPath: Assets\Prefab\Bullet Impact\Bullet Impact Effect_water.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_earth.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_earth.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_earth.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_fire.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_fire.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_fire.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_water.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_water.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_water.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildingManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildingManager.cs
+      projectPath: Assets\Scripts\BuildingManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fb43fd03841a03889f56fa941516f380e9be0359
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Turret speed & bullet color
+    description: Changed bullet's color according to the tower type and changed fire
+      rate of earth and splash turrets.
+    timeString: 2020-04-10T23:50:23.000-04:00
+    commitTimeString: 2020-04-10T23:50:23.000-04:00
+    changes:
+    - path: Assets\Material\Bullets.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets.meta
+      projectPath: Assets\Material\Bullets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\BulletImpact_normal.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\BulletImpact_normal.mat
+      projectPath: Assets\Material\Bullets\BulletImpact_normal.mat
+      originalPath: Assets\Material\BulletImpact.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\BulletImpact_normal.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\BulletImpact_normal.mat.meta
+      projectPath: Assets\Material\Bullets\BulletImpact_normal.mat.meta
+      originalPath: Assets\Material\BulletImpact.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_earth.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_earth.mat
+      projectPath: Assets\Material\Bullets\Bullet_earth.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_earth.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_earth.mat.meta
+      projectPath: Assets\Material\Bullets\Bullet_earth.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_fire.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_fire.mat
+      projectPath: Assets\Material\Bullets\Bullet_fire.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_fire.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_fire.mat.meta
+      projectPath: Assets\Material\Bullets\Bullet_fire.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_normal.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_normal.mat
+      projectPath: Assets\Material\Bullets\Bullet_normal.mat
+      originalPath: Assets\Material\Bullet.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_normal.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_normal.mat.meta
+      projectPath: Assets\Material\Bullets\Bullet_normal.mat.meta
+      originalPath: Assets\Material\Bullet.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_water.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_water.mat
+      projectPath: Assets\Material\Bullets\Bullet_water.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullets\Bullet_water.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullets\Bullet_water.mat.meta
+      projectPath: Assets\Material\Bullets\Bullet_water.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Glow.shader
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Glow.shader
+      projectPath: Assets\Material\Glow.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Glow.shader.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Glow.shader.meta
+      projectPath: Assets\Material\Glow.shader.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets.meta
+      projectPath: Assets\Prefab\Bullets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_earth.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_earth.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_earth.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_earth.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_earth.prefab.meta
+      projectPath: Assets\Prefab\Bullets\Bullet_earth.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_fire.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_fire.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_fire.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_fire.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_fire.prefab.meta
+      projectPath: Assets\Prefab\Bullets\Bullet_fire.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_normal.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_normal.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_normal.prefab
+      originalPath: Assets\Prefab\Bullet.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_normal.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_normal.prefab.meta
+      projectPath: Assets\Prefab\Bullets\Bullet_normal.prefab.meta
+      originalPath: Assets\Prefab\Bullet.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_water.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_water.prefab
+      projectPath: Assets\Prefab\Bullets\Bullet_water.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullets\Bullet_water.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullets\Bullet_water.prefab.meta
+      projectPath: Assets\Prefab\Bullets\Bullet_water.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets.meta
+      projectPath: Assets\Prefab\Turrets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Earth Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Earth
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Earth Turret.prefab
+      originalPath: Assets\Prefab\Earth Turret.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Earth Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Earth
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Earth Turret.prefab.meta
+      originalPath: Assets\Prefab\Earth Turret.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Exploding Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Exploding
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Exploding Turret.prefab
+      originalPath: Assets\Prefab\Exploding Turret.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Exploding Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Exploding
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Exploding Turret.prefab.meta
+      originalPath: Assets\Prefab\Exploding Turret.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Fire Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Fire
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Fire Turret.prefab
+      originalPath: Assets\Prefab\Fire Turret.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Fire Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Fire
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Fire Turret.prefab.meta
+      originalPath: Assets\Prefab\Fire Turret.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Missile Launcher.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Missile
+        Launcher.prefab
+      projectPath: Assets\Prefab\Turrets\Missile Launcher.prefab
+      originalPath: Assets\Prefab\Missile Launcher.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Missile Launcher.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Missile
+        Launcher.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Missile Launcher.prefab.meta
+      originalPath: Assets\Prefab\Missile Launcher.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Normal Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Normal
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Normal Turret.prefab
+      originalPath: Assets\Prefab\Normal Turret.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Normal Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Normal
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Normal Turret.prefab.meta
+      originalPath: Assets\Prefab\Normal Turret.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Water Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Water
+        Turret.prefab
+      projectPath: Assets\Prefab\Turrets\Water Turret.prefab
+      originalPath: Assets\Prefab\Water Turret.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefab\Turrets\Water Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Turrets\Water
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Turrets\Water Turret.prefab.meta
+      originalPath: Assets\Prefab\Water Turret.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene_Profiles.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene_Profiles.meta
+      projectPath: Assets\Scenes\MainScene_Profiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene_Profiles\Main Camera Profile 1.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene_Profiles\Main
+        Camera Profile 1.asset
+      projectPath: Assets\Scenes\MainScene_Profiles\Main Camera Profile 1.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene_Profiles\Main Camera Profile 1.asset.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene_Profiles\Main
+        Camera Profile 1.asset.meta
+      projectPath: Assets\Scenes\MainScene_Profiles\Main Camera Profile 1.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene_Profiles\Main Camera Profile.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene_Profiles\Main
+        Camera Profile.asset
+      projectPath: Assets\Scenes\MainScene_Profiles\Main Camera Profile.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene_Profiles\Main Camera Profile.asset.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene_Profiles\Main
+        Camera Profile.asset.meta
+      projectPath: Assets\Scenes\MainScene_Profiles\Main Camera Profile.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 19d3a20dbb35b7382db952b74d357ec5e28bb159
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: First commit
+    description: Config + current version of the game
+    timeString: 2020-04-10T16:53:35.000-04:00
+    commitTimeString: 2020-04-10T16:53:35.000-04:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Imports.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Imports.meta
+      projectPath: Assets\Imports.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Imports\Missile Launcher.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Imports\Missile
+        Launcher.fbx
+      projectPath: Assets\Imports\Missile Launcher.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Imports\Missile Launcher.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Imports\Missile
+        Launcher.fbx.meta
+      projectPath: Assets\Imports\Missile Launcher.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Imports\Turret.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Imports\Turret.fbx
+      projectPath: Assets\Imports\Turret.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Imports\Turret.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Imports\Turret.fbx.meta
+      projectPath: Assets\Imports\Turret.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material.meta
+      projectPath: Assets\Material.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullet.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullet.mat
+      projectPath: Assets\Material\Bullet.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullet.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Bullet.mat.meta
+      projectPath: Assets\Material\Bullet.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\BulletImpact.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\BulletImpact.mat
+      projectPath: Assets\Material\BulletImpact.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\BulletImpact.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\BulletImpact.mat.meta
+      projectPath: Assets\Material\BulletImpact.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\END.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\END.mat
+      projectPath: Assets\Material\END.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\END.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\END.mat.meta
+      projectPath: Assets\Material\END.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth.meta
+      projectPath: Assets\Material\Earth.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Barrel.mat
+      projectPath: Assets\Material\Earth\Earth_Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Barrel.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Barrel.mat.meta
+      projectPath: Assets\Material\Earth\Earth_Turret_Barrel.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Main.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Main.mat
+      projectPath: Assets\Material\Earth\Earth_Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Main.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Main.mat.meta
+      projectPath: Assets\Material\Earth\Earth_Turret_Main.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Secondary.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Secondary.mat
+      projectPath: Assets\Material\Earth\Earth_Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Earth\Earth_Turret_Secondary.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Earth\Earth_Turret_Secondary.mat.meta
+      projectPath: Assets\Material\Earth\Earth_Turret_Secondary.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Enemy.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Enemy.mat
+      projectPath: Assets\Material\Enemy.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Enemy.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Enemy.mat.meta
+      projectPath: Assets\Material\Enemy.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding.meta
+      projectPath: Assets\Material\Exploding.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Barrel.mat
+      projectPath: Assets\Material\Exploding\Explo_Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Barrel.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Barrel.mat.meta
+      projectPath: Assets\Material\Exploding\Explo_Turret_Barrel.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Main.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Main.mat
+      projectPath: Assets\Material\Exploding\Explo_Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Main.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Main.mat.meta
+      projectPath: Assets\Material\Exploding\Explo_Turret_Main.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Secondary.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Secondary.mat
+      projectPath: Assets\Material\Exploding\Explo_Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Exploding\Explo_Turret_Secondary.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Exploding\Explo_Turret_Secondary.mat.meta
+      projectPath: Assets\Material\Exploding\Explo_Turret_Secondary.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire.meta
+      projectPath: Assets\Material\Fire.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Barrel.mat
+      projectPath: Assets\Material\Fire\Fire_Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Barrel.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Barrel.mat.meta
+      projectPath: Assets\Material\Fire\Fire_Turret_Barrel.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Main.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Main.mat
+      projectPath: Assets\Material\Fire\Fire_Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Main.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Main.mat.meta
+      projectPath: Assets\Material\Fire\Fire_Turret_Main.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Secondary.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Secondary.mat
+      projectPath: Assets\Material\Fire\Fire_Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Fire\Fire_Turret_Secondary.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Fire\Fire_Turret_Secondary.mat.meta
+      projectPath: Assets\Material\Fire\Fire_Turret_Secondary.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Ground.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Ground.mat
+      projectPath: Assets\Material\Ground.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Ground.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Ground.mat.meta
+      projectPath: Assets\Material\Ground.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\GroundPlane.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\GroundPlane.mat
+      projectPath: Assets\Material\GroundPlane.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\GroundPlane.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\GroundPlane.mat.meta
+      projectPath: Assets\Material\GroundPlane.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal.meta
+      projectPath: Assets\Material\Normal.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Barrel.mat
+      projectPath: Assets\Material\Normal\Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Barrel.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Barrel.mat.meta
+      projectPath: Assets\Material\Normal\Turret_Barrel.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Main.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Main.mat
+      projectPath: Assets\Material\Normal\Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Main.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Main.mat.meta
+      projectPath: Assets\Material\Normal\Turret_Main.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Secondary.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Secondary.mat
+      projectPath: Assets\Material\Normal\Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Normal\Turret_Secondary.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Normal\Turret_Secondary.mat.meta
+      projectPath: Assets\Material\Normal\Turret_Secondary.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Start.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Start.mat
+      projectPath: Assets\Material\Start.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Start.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Start.mat.meta
+      projectPath: Assets\Material\Start.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water.meta
+      projectPath: Assets\Material\Water.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Barrel.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Barrel.mat
+      projectPath: Assets\Material\Water\Water_Turret_Barrel.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Barrel.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Barrel.mat.meta
+      projectPath: Assets\Material\Water\Water_Turret_Barrel.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Main.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Main.mat
+      projectPath: Assets\Material\Water\Water_Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Main.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Main.mat.meta
+      projectPath: Assets\Material\Water\Water_Turret_Main.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Secondary.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Secondary.mat
+      projectPath: Assets\Material\Water\Water_Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Water\Water_Turret_Secondary.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Water\Water_Turret_Secondary.mat.meta
+      projectPath: Assets\Material\Water\Water_Turret_Secondary.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab.meta
+      projectPath: Assets\Prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact Effect.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact Effect.prefab
+      projectPath: Assets\Prefab\Bullet Impact Effect.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet Impact Effect.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet
+        Impact Effect.prefab.meta
+      projectPath: Assets\Prefab\Bullet Impact Effect.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet.prefab
+      projectPath: Assets\Prefab\Bullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Bullet.prefab.meta
+      projectPath: Assets\Prefab\Bullet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Earth Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Earth Turret.prefab
+      projectPath: Assets\Prefab\Earth Turret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Earth Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Earth Turret.prefab.meta
+      projectPath: Assets\Prefab\Earth Turret.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Enemy.prefab
+      projectPath: Assets\Prefab\Enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Enemy.prefab.meta
+      projectPath: Assets\Prefab\Enemy.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Exploding Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Exploding
+        Turret.prefab
+      projectPath: Assets\Prefab\Exploding Turret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Exploding Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Exploding
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Exploding Turret.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Fire Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Fire Turret.prefab
+      projectPath: Assets\Prefab\Fire Turret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Fire Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Fire Turret.prefab.meta
+      projectPath: Assets\Prefab\Fire Turret.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Missile Launcher.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Missile
+        Launcher.prefab
+      projectPath: Assets\Prefab\Missile Launcher.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Missile Launcher.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Missile
+        Launcher.prefab.meta
+      projectPath: Assets\Prefab\Missile Launcher.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Node.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Node.prefab
+      projectPath: Assets\Prefab\Node.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Node.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Node.prefab.meta
+      projectPath: Assets\Prefab\Node.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Normal Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Normal
+        Turret.prefab
+      projectPath: Assets\Prefab\Normal Turret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Normal Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Normal
+        Turret.prefab.meta
+      projectPath: Assets\Prefab\Normal Turret.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Water Turret.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Water Turret.prefab
+      projectPath: Assets\Prefab\Water Turret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Water Turret.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Water Turret.prefab.meta
+      projectPath: Assets\Prefab\Water Turret.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Waypoint.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Waypoint.prefab
+      projectPath: Assets\Prefab\Waypoint.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Waypoint.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Waypoint.prefab.meta
+      projectPath: Assets\Prefab\Waypoint.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity.meta
+      projectPath: Assets\Scenes\MainScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\UIScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\UIScene.unity
+      projectPath: Assets\Scenes\UIScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\UIScene.unity.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\UIScene.unity.meta
+      projectPath: Assets\Scenes\UIScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildingManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildingManager.cs
+      projectPath: Assets\Scripts\BuildingManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildingManager.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\BuildingManager.cs.meta
+      projectPath: Assets\Scripts\BuildingManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Bullet.cs.meta
+      projectPath: Assets\Scripts\Bullet.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Enemy.cs
+      projectPath: Assets\Scripts\Enemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Enemy.cs.meta
+      projectPath: Assets\Scripts\Enemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ScoreManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\ScoreManager.cs
+      projectPath: Assets\Scripts\ScoreManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ScoreManager.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\ScoreManager.cs.meta
+      projectPath: Assets\Scripts\ScoreManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TowerSpot.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TowerSpot.cs
+      projectPath: Assets\Scripts\TowerSpot.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TowerSpot.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\TowerSpot.cs.meta
+      projectPath: Assets\Scripts\TowerSpot.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turret.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Turret.cs
+      projectPath: Assets\Scripts\Turret.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turret.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Turret.cs.meta
+      projectPath: Assets\Scripts\Turret.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WaveSpawner.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\WaveSpawner.cs
+      projectPath: Assets\Scripts\WaveSpawner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WaveSpawner.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\WaveSpawner.cs.meta
+      projectPath: Assets\Scripts\WaveSpawner.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Waypoints.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Waypoints.cs
+      projectPath: Assets\Scripts\Waypoints.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Waypoints.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\Waypoints.cs.meta
+      projectPath: Assets\Scripts\Waypoints.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\coin_PNG36888.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\coin_PNG36888.png
+      projectPath: Assets\coin_PNG36888.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\coin_PNG36888.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\coin_PNG36888.png.meta
+      projectPath: Assets\coin_PNG36888.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 2d0f14800285210b10bc064b74b31315e6b26ec1
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: james.hwang@case.edu
+    commitEmail: james.hwang@case.edu
+    commitName: James Hwang
+    summary: Initial commit
+    description: 
+    timeString: 2020-04-10T16:52:21.000-04:00
+    commitTimeString: 2020-04-10T16:52:21.000-04:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
