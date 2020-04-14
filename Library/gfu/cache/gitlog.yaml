@@ -13,9 +13,609 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-13T22:02:04.538-04:00
-  initializedAtString: 2020-04-13T20:24:19.649-04:00
+  lastUpdatedAtString: 2020-04-14T01:47:10.739-04:00
+  initializedAtString: 2020-04-14T00:35:20.755-04:00
   log:
+  - commitID: 9fbebc250fd81a5158513dbbfab3d63d2359dea4
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: jxh942@case.edu
+    commitEmail: jxh942@case.edu
+    commitName: James Hwang
+    summary: New Map Layout & Background
+    description: 
+    timeString: 2020-04-14T01:46:55.000-04:00
+    commitTimeString: 2020-04-14T01:46:55.000-04:00
+    changes:
+    - path: Assets\Material\Ground.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\Ground.mat
+      projectPath: Assets\Material\Ground.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Material\GroundPlane.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Material\GroundPlane.mat
+      projectPath: Assets\Material\GroundPlane.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite.meta
+      projectPath: Assets\NaturePackLite.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Materials.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Materials.meta
+      projectPath: Assets\NaturePackLite\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Materials\Nature_Texture_01.mat
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Materials\Nature_Texture_01.mat
+      projectPath: Assets\NaturePackLite\Materials\Nature_Texture_01.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Materials\Nature_Texture_01.mat.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Materials\Nature_Texture_01.mat.meta
+      projectPath: Assets\NaturePackLite\Materials\Nature_Texture_01.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models.meta
+      projectPath: Assets\NaturePackLite\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Branch_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Branch_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Branch_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Branch_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Branch_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Branch_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Bush_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Bush_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Bush_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Bush_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Bush_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Bush_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Bush_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Bush_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Bush_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Bush_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Bush_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Bush_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Grass_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Grass_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Grass_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Grass_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Grass_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Grass_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Grass_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Grass_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Grass_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Grass_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Grass_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Grass_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Ground_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Ground_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Ground_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Ground_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Ground_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Ground_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Ground_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Ground_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Ground_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Ground_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Ground_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Ground_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Mushroom_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Mushroom_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Mushroom_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Mushroom_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Mushroom_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Mushroom_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Mushroom_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Mushroom_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Mushroom_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Mushroom_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Mushroom_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Mushroom_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Rock_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Rock_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Rock_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Rock_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_03.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_03.fbx
+      projectPath: Assets\NaturePackLite\Models\Rock_03.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_03.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_03.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Rock_03.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_04.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_04.fbx
+      projectPath: Assets\NaturePackLite\Models\Rock_04.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Rock_04.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Rock_04.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Rock_04.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Stump_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Stump_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Stump_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Stump_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Stump_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Stump_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Tree_01.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Tree_01.fbx
+      projectPath: Assets\NaturePackLite\Models\Tree_01.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Tree_01.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Tree_01.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Tree_01.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Tree_02.fbx
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Tree_02.fbx
+      projectPath: Assets\NaturePackLite\Models\Tree_02.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Models\Tree_02.fbx.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Models\Tree_02.fbx.meta
+      projectPath: Assets\NaturePackLite\Models\Tree_02.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs.meta
+      projectPath: Assets\NaturePackLite\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Branch_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Branch_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Branch_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Branch_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Branch_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Branch_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Bush_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Bush_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Bush_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Bush_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Bush_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Bush_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Bush_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Bush_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Bush_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Bush_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Bush_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Bush_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Grass_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Grass_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Grass_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Grass_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Grass_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Grass_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Grass_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Grass_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Grass_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Grass_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Grass_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Grass_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Ground_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Ground_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Ground_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Ground_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Ground_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Ground_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Ground_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Ground_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Ground_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Ground_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Ground_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Ground_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Mushroom_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Mushroom_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Mushroom_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Mushroom_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Mushroom_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Mushroom_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Mushroom_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Mushroom_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Mushroom_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Mushroom_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Mushroom_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Mushroom_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_03.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_03.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_03.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_03.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_03.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_03.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_04.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_04.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_04.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Rock_04.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Rock_04.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Rock_04.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Stump_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Stump_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Stump_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Stump_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Stump_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Stump_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Tree_01.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Tree_01.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Tree_01.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Tree_01.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Tree_01.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Tree_01.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Tree_02.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Tree_02.prefab
+      projectPath: Assets\NaturePackLite\Prefabs\Tree_02.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Prefabs\Tree_02.prefab.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Prefabs\Tree_02.prefab.meta
+      projectPath: Assets\NaturePackLite\Prefabs\Tree_02.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Scenes.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Scenes.meta
+      projectPath: Assets\NaturePackLite\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Scenes\Demo.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Scenes\Demo.unity
+      projectPath: Assets\NaturePackLite\Scenes\Demo.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Scenes\Demo.unity.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Scenes\Demo.unity.meta
+      projectPath: Assets\NaturePackLite\Scenes\Demo.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Textures.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Textures.meta
+      projectPath: Assets\NaturePackLite\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Textures\Nature_Texture_01.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Textures\Nature_Texture_01.png
+      projectPath: Assets\NaturePackLite\Textures\Nature_Texture_01.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NaturePackLite\Textures\Nature_Texture_01.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\NaturePackLite\Textures\Nature_Texture_01.png.meta
+      projectPath: Assets\NaturePackLite\Textures\Nature_Texture_01.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Node.prefab
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Prefab\Node.prefab
+      projectPath: Assets\Prefab\Node.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameOver.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\GameOver.cs
+      projectPath: Assets\Scripts\GameOver.cs
+      originalPath: Assets\GameOver.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameOver.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\GameOver.cs.meta
+      projectPath: Assets\Scripts\GameOver.cs.meta
+      originalPath: Assets\GameOver.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\ScoreManager.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\ScoreManager.cs
+      projectPath: Assets\Scripts\ScoreManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WaveUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\WaveUI.cs
+      projectPath: Assets\Scripts\WaveUI.cs
+      originalPath: Assets\WaveUI.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\WaveUI.cs.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\WaveUI.cs.meta
+      projectPath: Assets\Scripts\WaveUI.cs.meta
+      originalPath: Assets\WaveUI.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: 7cfa04aa02f89261d4f57392eae7e7208b5aec69
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: jxh942@case.edu
+    commitEmail: jxh942@case.edu
+    commitName: James Hwang
+    summary: Organized Hierachy
+    description: 
+    timeString: 2020-04-14T00:56:12.000-04:00
+    commitTimeString: 2020-04-14T00:56:12.000-04:00
+    changes:
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 6562b0296525f067bac52f71b8299df3c3bdcbf4
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: jxh942@case.edu
+    commitEmail: jxh942@case.edu
+    commitName: James Hwang
+    summary: Organize Hierachy
+    description: 
+    timeString: 2020-04-14T00:44:34.000-04:00
+    commitTimeString: 2020-04-14T00:44:34.000-04:00
+    changes:
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fc34bdca66d3ea3ff92f4f6b2bb9100dc50182bd
+    mergeA: 
+    mergeB: 
+    authorName: James Hwang
+    authorEmail: jxh942@case.edu
+    commitEmail: jxh942@case.edu
+    commitName: James Hwang
+    summary: Fixed pathing bug & changed coin sign
+    description: 
+    timeString: 2020-04-14T00:41:53.000-04:00
+    commitTimeString: 2020-04-14T00:41:53.000-04:00
+    changes:
+    - path: Assets\Images\coin_PNG36888.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\coin_PNG36888.png.meta
+      projectPath: Assets\Images\coin_PNG36888.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Images\dollar.png
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\dollar.png
+      projectPath: Assets\Images\dollar.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\dollar.png.meta
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Images\dollar.png.meta
+      projectPath: Assets\Images\dollar.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\MoneyUI.cs
+      fullPath: C:\Users\James\Documents\Unity Projects\AD1\Assets\Scripts\MoneyUI.cs
+      projectPath: Assets\Scripts\MoneyUI.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 58932e04cf3c7942a01bcfb6f41c8c8cbb775986
     mergeA: 
     mergeB: 

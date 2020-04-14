@@ -36,10 +36,6 @@ public class ScoreManager : MonoBehaviour
 
     private void Update()
     {
-        moneyText.text = "     :  " + money.ToString();
-        livesText.text = "Lives: " +  lives.ToString();
-        waveText.text = "Wave: " + wave.ToString();
-
 
         GameObject[] FireNum = GameObject.FindGameObjectsWithTag("Fire");
         int FireCount = FireNum.Length;
@@ -48,9 +44,9 @@ public class ScoreManager : MonoBehaviour
         GameObject[] EarthNum = GameObject.FindGameObjectsWithTag("Earth");
         int EarthCount = EarthNum.Length;
 
-        FireNumText.text = "Fire Element Towers: " + FireCount.ToString();
-        WaterNumText.text = "Water Element Towers: " + WaterCount.ToString();
-        EarthNumText.text = "Earth Element Towers: " + EarthCount.ToString();
+        FireNumText.text = "                          " + FireCount.ToString();
+        WaterNumText.text = "                          " + WaterCount.ToString();
+        EarthNumText.text = "                          " + EarthCount.ToString();
 
 
 

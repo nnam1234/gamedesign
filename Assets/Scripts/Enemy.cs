@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
 
-        if (Vector3.Distance(transform.position, target.position) <= 0.2f)
+        if (Vector3.Distance(transform.position, target.position) <= 0.5f)
         {
             GetNextWaypoint();
         }
@@ -37,8 +37,7 @@ public class Enemy : MonoBehaviour
 
         if(wavepointIndex >= Waypoints.points.Length - 1)
         {
-            GameObject.FindObjectOfType<ScoreManager>().loseLife();
-            Destroy(gameObject);
+            EndPath();
             return;
         }
         
@@ -57,7 +56,13 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
+        PlayerStats.Money += moneyValue;
+        Destroy(gameObject);
+    }
+
+    void EndPath()
+    {
+        PlayerStats.Lives--;
         Destroy(gameObject);
     }
 }
